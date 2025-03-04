@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+    
+    <header>
+        <div class="logo" style="font-weight: bold;">Bolla Sai Divya Tej Reddy  (Web developer)</div>
+        <br/>
+        
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="darkModeToggle">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section id="about">
+        <div class="about-container">
+            <img src="https://res.cloudinary.com/dh6xitsxg/image/upload/v1741077377/WhatsApp_Image_2025-03-04_at_14.03.53_ipu4xg.jpg" alt="Profile Picture">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hi, I'm Sai Reddy A passionate web developer with a love for design, animations, and interactivity.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIKeJ_Hog43J_HA0DsjmrfHReosS2-alMy3w&s" alt="Project 1">
+                <h3>Soul Ease</h3>
+                <p>SoulEase is an intelligent journaling platform that combines AI-driven text analysis with emotional insights, helping users track their mental well-being. By analyzing journal entries, SoulEase detects emotions, offers personalized reflections, and provides mood trends over time. With an intuitive and secure interface, it encourages self-expression, mindfulness, and emotional awareness, making journaling more insightful and impactful.</p>
+            </div>
+            <div class="project">
+                <img src="data:image/png;base64,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" alt="Project 2">
+                <h3>Flow Forward</h3>
+                <p>FlowForward is an advanced AI-driven system designed to optimize urban traffic flow, reduce congestion, and enhance road safety. By leveraging real-time data from sensors, cameras, and GPS, FlowForward dynamically adjusts traffic signals, predicts congestion patterns, and suggests alternate routes. Its intelligent algorithms help city planners and traffic authorities make data-driven decisions, ensuring smoother and more efficient transportation systems.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out via email or social media!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="https://github.com/Saidivyatejreddy">GitHub</a> | <a href="https://www.linkedin.com/in/bolla-sai-divya-tej-reddy-155520354">LinkedIn</a> 
+        </div>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2025 Sai Reddy. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
